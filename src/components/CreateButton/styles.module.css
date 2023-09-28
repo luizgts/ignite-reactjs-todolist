@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 5.625rem;
+    height: 3.25rem;
+    background-color: var(--primary-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    font-size: var(--md);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color .25s
+}
+
+.container:hover {
+    background-color: var(--primary);
+}
+
+.icon {
+    font-size: var(--lg);
+}

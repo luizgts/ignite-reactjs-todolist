@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    height: 72px;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-size: var(--md);
+    gap: 12px;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-500);
+}
+
+.container p {
+    flex: 1;
+}
+
+.completed {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.not_completed {
+    color: var(--gray-100);
+    border: 1px solid var(--gray-400);
+}
+
+.check, .delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+}
+
+.check_icon {
+    height: 18px;
+}
+
+.delete_icon {
+    height: 14px;
+    padding-right: 0.1px;
+}
+
+.delete:hover {
+    background-color: var(--gray-400);
+    border-radius: 4px;
+}
+
+.check:hover {
+    opacity: 0.5;
+}

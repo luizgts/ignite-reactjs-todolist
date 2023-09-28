@@ -1,0 +1,10 @@
+.container {
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 100px;
+    padding: 2px 8px;
+    font-size: var(--sm);
+    font-weight: bold;
+    display: flex;
+    height: 20px;
+}

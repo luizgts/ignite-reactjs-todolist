@@ -1,0 +1,68 @@
+.header {
+    height: 200px;
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_logo {
+    height: 48px;
+}
+
+.container {
+    max-width: 736px;
+    margin: -26px auto 0 auto;
+}
+
+.container_bar {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 65px;
+}
+
+.container_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.container_tasks {
+    border-top-width: 1px;
+    border-top-color: var(--gray-400);
+    border-top-style: solid;
+}
+
+.info_created, .info_finished {
+    display: flex;
+    font-size: var(--md);
+    font-weight: bold;
+    gap: 8px;
+    align-items: center;
+}
+
+.info_created {
+    color: var(--primary);
+}
+
+.info_finished {
+    color: var(--secondary);
+}
+
+.tasklist_empty {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.tasklist_empty img {
+    margin-bottom: 8px;
+}
+
+.tasklist_empty p {
+    font-size: var(--lg);
+    color: var(--gray-300);
+}
+
+.bold {
+    font-weight: bold;
+}
